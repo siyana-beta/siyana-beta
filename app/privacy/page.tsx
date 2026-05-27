@@ -1,0 +1,1 @@
+export default function Privacy(){return <main className="page"><div className="wrap"><h1>Privacy — конфиденциальность</h1><p className="lead">Ваши данные защищены и принадлежат только вам. Beta-версия использует демо-данные.</p></div></main>}

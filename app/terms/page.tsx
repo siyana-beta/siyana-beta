@@ -1,0 +1,1 @@
+export default function Terms(){return <main className="page"><div className="wrap"><h1>Terms — условия</h1><p className="lead">SIYANA Beta предназначена для тестирования продукта и не является медицинским сервисом.</p></div></main>}

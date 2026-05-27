@@ -1,0 +1,3 @@
+export default function Beta() {
+  return <main className="page"><div className="wrap" style={{maxWidth:720}}><div className="brand" style={{padding:'24px 0'}}><span className="mark"/> SIYANA</div><section className="card ai" style={{padding:30}}><span className="badge">Closed Beta — закрытая beta</span><h1 className="sectionTitle">Получить ранний доступ</h1><p className="lead">SIYANA пока находится в Beta. Мы подключаем WHOOP и переводим данные организма на понятный русский язык.</p><input className="input" placeholder="Ваш email" style={{width:'100%',margin:'10px 0'}}/><a className="btn primary" style={{display:'block',textAlign:'center',marginTop:14}} href="/dashboard">Отправить заявку</a></section></div></main>
+}

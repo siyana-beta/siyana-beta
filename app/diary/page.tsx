@@ -1,0 +1,3 @@
+export default function Diary() {
+  return <main className="page"><div className="wrap"><div className="phone"><div className="screen"><div className="topbar"><b>Дневник</b><span className="small">Beta</span></div>{['Тренировка: силовая 45 минут','Питание: белок в норме','Вода: 2.4 л','Настроение: хорошее','Заметка: высокая продуктивность до 17:00'].map((x)=><div className="metric" key={x} style={{marginBottom:12}}>{x}</div>)}<a className="btn primary" style={{display:'block',textAlign:'center',marginTop:20}} href="/invite/beta">Добавить запись</a><div className="bottom"><a href="/dashboard">Главная</a><a href="/metrics">Аналитика</a><span className="active">Дневник</span><span>Профиль</span></div></div></div></div></main>
+}
