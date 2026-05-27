@@ -1,1 +1,0 @@
-export default function Terms(){return <main className="page"><h1>Terms of Service</h1><p>SIYANA Beta is a private test product. Recommendations are informational and are not medical diagnosis.</p></main>}
